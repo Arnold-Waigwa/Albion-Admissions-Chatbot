@@ -1,0 +1,625 @@
+initial: What are you interested in learning about Albion College? Please type your questions with full detail without unnecessary information in order get the most accurate response.
+final: Goodbye.  Thank you for talking to me.
+quit: bye
+quit: goodbye
+quit: quit
+pre: job jobs
+pre: profs professors
+pre: kc kellogg
+pre: frats fraternities
+pre: frat fraternities
+pre: math mathematics
+pre: locate location
+pre: located location
+pre: sorority sororities
+pre: fraternity fraternities
+pre: cross cross country
+pre: track track and field
+pre: swimming swim
+pre: dont don't
+pre: when When
+pre: dorms dorm
+pre: cant can't
+pre: wont won't
+pre: recollect remember
+pre: dreamt dreamed
+pre: dreams dream
+pre: maybe perhaps
+pre: certainly yes
+pre: machine computer
+pre: computers computer
+pre: were was
+pre: you're you are
+pre: i'm i am
+pre: major majors
+pre: professor professors
+pre: freshmens freshmen
+pre: sophomores sophomore
+pre: juniors junior
+pre: seniors senior
+pre: same alike
+post: am are
+post: your my
+post: me you
+post: myself yourself
+post: yourself myself
+post: i you
+post: you I
+post: my your
+post: i'm you are
+synon: professor professors
+synon: sophomore junior senior
+synon: kc kellogg
+synon: live stay
+synon: have need
+synon: fraternities frat frats
+synon: locate location
+synon: plays play
+synon: teams team
+synon: belief feel think believe wish
+synon: family mother mom father dad sister brother wife children child
+synon: desire want need
+synon: sad unhappy depressed sick
+synon: happy elated glad better
+synon: cannot can't
+synon: everyone everybody nobody noone
+synon: be am is are was
+key: xnone
+  decomp: *
+    reasmb: I'm not sure I understand you fully. Please check spelling or rephrase your question. 
+
+
+key: professors 5
+   decomp:  * history *
+    reasmb: Some of the professors in the History department include Dr. Ho and Dr. Ridell.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * computer science * 
+    reasmb: Dr. Marengoni, Dr. Reimann, and Dr. Zhang are a few of the Computer Science professors.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * math *
+    reasmb: Some of the professors in the Math department include Dr. Bollman, Dr. Grow, and Dr. Mason.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * biology *
+    reasmb: The Biology department is home to Dr. Lyons-Sobaski, Dr. Olapade, and Dr. Saville.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * physics *
+    reasmb: Some of the professors in the Physics department include Dr. Zellner and Dr. Cho.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * sociology *
+    reasmb: Some of the professors in the Sociology department include Dr. Allison, Dr. Darling, and Dr. Melzer.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * economics *
+    reasmb: Some of the professors in the Economics and Management department include Dr. Baker, Dr. Hooks, and Dr. Kim.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * management *
+    reasmb: Some of the professors in the Economics and Management department include Dr. Baker, Dr. Hooks, and Dr. Kim.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * art *
+    reasmb: Some of the professors in the Art and Art History department include Dr. Demerdash, Dr. Dixon, and Dr. Solomon.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * earth *
+    reasmb: Some of the professors in the Earth and Environment department include Dr. Menold, Dr. McRivette, and Dr. Wilch.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * environment *
+    reasmb: Some of the professors in the Earth and Environment department include Dr. Menold, Dr. McRivette, and Dr. Wilch.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * education *
+    reasmb: Some of the professors in the Education department include Dr. Henke, Dr. Shanton, and Dr. Swan.
+    reasmb: To learn more about this department, search Albion College Departments online.
+
+key: department 5
+   decomp:  * history *
+    reasmb: The History department is located on the second floor of the Robinson building on the quad.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * computer science *
+    reasmb: The Computer Science department is located on the second floor of the Science Complex.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * physics *
+    reasmb: The Physics department is located in the Science Complex.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * geology *
+    reasmb: The Geology department is located in the Science Complex.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * mathematics *
+    reasmb: The Mathematics department on the second floor of the Science Complex.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * art *
+    reasmb: The Art department is located in the Bobbitt Visual Arts Center.
+    reasmb: To learn more about this department, search Albion College Departments online.
+   decomp:  * 
+    reasmb: To learn more about this department, search Albion College Departments online.
+
+
+key: majors 5
+   decomp: * popular * majors *
+    reasmb: Some of the popular majors among students at Albion College include Biology, Economics, Business, and Kinesiology.
+   decomp:  * tell me more about the computer science majors *
+    reasmb: The Computer Science department is located on the second floor of the Science Complex.
+   decomp:  * tell me more about the history majors *
+    reasmb: The History major is another popular route at Albion College. Many find themselves picking up a minor in History due to the interesting topics and outstanding professors. 
+   decomp:  * tell me more about the anthropology majors *
+    reasmb: The Anthropology department is located in Robinson and is not one of the most popular majors. However this is a popular minor due to the well rounded outlook it provides for all students in any career choice.
+   decomp:  * tell me more about the mathematics majors *
+    reasmb: The Mathematics major is a popular double major candidate among science students.
+   decomp:  * tell me more about the * majors *
+    reasmb: To learn more about this major, search Albion College Majors online and pick one that you are interested in.
+   decomp: * 
+    reasmb: Albion College offers 59 majors and 51 minors within the 53 academic departments. --- If there is a specific major you would like to know about please say, " Tell me more about the ____ major " . Or learn more by asking about some of the popular majors at Albion College!! ---
+
+key: kellogg 5
+   decomp:  * where *
+    reasmb: The Kellogg Center is a large white building located on the corner of the quad.
+   decomp:  * location *
+    reasmb: The Kellogg Center is a large white building located on the corner of the quad.
+   decomp:  * 
+    reasmb: The Kellogg Center is home to the Eat Cafe, bookstore, and mail room.
+
+
+key: greek 5
+   decomp: * is * there *
+    reasmb: Yes, there is !
+    reasmb: For more information, visit the Albion greek life website.
+   decomp: * How * can * 
+    reasmb: For more information on greek life, visit the Albion greek life website.
+   decomp: * pay * 
+    reasmb: Yes, you are required to pay some fees to join greek life. For more information, visit the Albion greeklife website.
+    reasmb: For more information on greek life, visit the Albion greek life website.
+
+key: sororities 5
+   decomp: * live *
+    reasmb: No, sororities in Albion College don't live in their houses.
+    reasmb: For more information, visit the Albion greeklife website.
+   decomp: * house *
+    reasmb: No, sororities in Albion College don't live in their houses.
+    reasmb: For more information, visit the Albion greeklife website.
+   decomp: * housing *
+    reasmb: No, sororities in Albion College don't live in their houses.
+    reasmb: For more information, visit the Albion greeklife website.
+   decomp: * much * 
+    reasmb: For more information on how much sororities cost, visit the Albion greeklife website.
+   decomp: * pay *
+    reasmb: Yes, you are required to pay some fees to join sororities. For more information, visit the Albion greeklife website.
+    reasmb: For more information on how to (1) greeklife, visit the Albion greeklife website.
+   decomp: * many *
+    reasmb: There are 6 sororities in Albion College. For more information, visit the Albion greeklife website.
+
+key: fraternities 5
+   decomp: * house *
+    reasmb: Yes, fraternities in Albion College live in their houses
+    reasmb: For more information, visit the Albion greeklife website.
+   decomp: * living *
+    reasmb: Yes, fraternities in Albion College live in their houses
+    reasmb: For more information, visit the Albion greeklife website.
+   decomp: * pay * 
+    reasmb: Yes, you are required to pay some fees to join fraternities. For more information, visit the Albion greeklife website
+   decomp: * cost * 
+    reasmb: Yes, you are required to pay some fees to join fraternities. For more information, visit the Albion greeklife website
+    reasmb: For more information visit the Albion greeklife website.
+   decomp: * many *
+    reasmb: There are 6 fraternities in Albion College. For more information, visit the Albion greeklife website.
+   decomp:  * meal plan *
+    reasmb: Fraternity members have the option of opting in or out of meal plans. Be sure to consider and choose what works best for you.
+   decomp:  * food *
+    reasmb: Fraternity members have the option of opting in or out of meal plans. Be sure to consider and choose what works best for you.
+   decomp:  * 
+    reasmb: What would you like to know about fraternities?
+    reasmb: For more information, visit the Albion greeklife website.
+
+
+key: library 5
+   decomp: * where * 
+    reasmb: The library is located in the quad near the astronomical observatory.
+   decomp: * students * work * library *
+    reasmb: Yes, the library employs student workers to work at the library.
+   decomp: * work *
+    reasmb: Yes, the library employs student workers to work at the library.
+   decomp: * borrow * library *
+    reasmb: Yes, you are allowed to borrow books from the library as you need. It is however important to follow library policies when doing so.
+   decomp: * food *
+    reasmb: The Grinds, in the library, offers a variety of food options and drinks including Starbucks!
+   decomp: * starbucks * 
+    reasmb: Yes, The Grinds in the library proudly serves Starbucks!
+
+key: starbucks 5
+   decomp: * 
+    reasmb: Yes, The Grinds in the library proudly serves Starbucks!
+
+key: cutler 5
+   decomp: what is * cutler center *
+    reasmb: The cutler center is a student success resource that allows students to be tutored by peers to achieve academic success.
+   decomp: * cutler center *
+    reasmb: The Cutler Center offers peer tutoring and individual consultation for Albion College students. For more information, visit the cutler center website.
+
+key: trio 5
+   decomp: * 
+    reasmb: TRIO is a federally funded program that supports students at Albion College by building community, developing strategies for academic success, and offering resources for continued learning well beyond college. For more information on joining and how it works, visit the cutler center website.
+
+key: innovation 5
+   decomp: * 
+    reasmb: The Albion College Innovation Lab is a space where students, faculty, and staff can creatively explore and learn. Stop by the lab to design and print 3D objects, try out a virtual reality experience, program a Lego robot, and use the space to work on creative projects. For more information on the innovation lab, visit the innovation lab website.
+
+key: international 5
+   decomp: * jobs * campus *
+    reasmb: Yes, International students can work on campus. However, I strongly advise you to meet with the Center for International Education office in Vulgamore 3rd floor to discuss such opportunities before hand.
+   decomp: * campus * jobs *
+    reasmb: Yes, International students can work on campus. However, I strongly advise you to meet with the Center for International Education office in Vulgamore 3rd floor to discuss such opportunities before hand.
+   decomp: * what * jobs *
+    reasmb: International students can work all variety of jobs on campus. However, I strongly advise you to meet with the Center for International Education office in Vulgamore 3rd floor to discuss such opportunities before hand.
+   decomp: * live *
+    reasmb: International students can live in any of the on campus accommodation. By the time of my creation, international students don't have an exclusive living space on campus.
+
+key: global 5
+   decomp: * where * 
+    reasmb: The global commons is in 3rd floor Vulgamore, room 303.
+   decomp: * 
+    reasmb: The global commons is an exclusive international student space in Vulgamore 3rd floor, where students meet, socialize, study, and have coffee!
+
+key: basketball 5
+  decomp: * when * basketball * play *
+    reasmb: Basketball plays in the Winter.
+    reasmb: For a full schedule look online at gobrits.com
+  decomp: * when * basketball * 
+    reasmb: Basketball plays in the Winter.
+  decomp: * what * teams * basketball * play *
+    reasmb: Basketball plays colleges such as Hope, Calvin, and Adrian.
+    reasmb: For a full list of teams that basketball plays against, go to gobrits.com
+  decomp: * who * coaches * basketball *
+    reasmb: The head coach of the basketball team is Jody May, and the assistant coach is Nate Frisbie.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: baseball 5
+  decomp: * when * baseball * play *
+    reasmb: Baseball plays in the spring.
+    reasmb: For a full schedule look online at gobrits.com
+  decomp: * when * baseball *
+    reasmb: Baseball plays in the spring.
+  decomp: * what * teams * baseball * play *
+    reasmb: Baseball plays colleges such as Kalamazoo, Hope, and Alma.
+    reasmb: For a full list of teams that baseball plays against, go to gobrits.com
+  decomp: * who * coaches * baseball *
+    reasmb: The head coach of the baseball team is Scott Carden, and the assistant coach is Matt Rix.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: tennis 5
+  decomp: * when * tennis * play *
+    reasmb: Tennis plays in the Spring.
+    reasmb: For a full schedule look online at gobrits.com
+  decomp: * when * tennis *
+    reasmb: Tennis plays in the Spring.
+  decomp: * what * teams * tennis * play *
+    reasmb: Tennis plays colleges such as Alma, Adrian, and Kalamazoo.
+    reasmb: For a full list of teams that tennis plays against, go to gobrits.com
+  decomp: * who * coaches * tennis *
+    reasmb: The head coach for the tennis team is Kacie Miller, and the assistant coach is Alexander Dowley.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: cross 5
+  decomp: * when * cross country * play *
+    reasmb: Cross Country runs in the Fall.
+    reasmb: For a full schedule look online at gobrits.com
+  decomp: * when * cross country *
+    reasmb: Cross Country runs in the Fall.
+  decomp: * when * cross country * run *
+    reasmb: Cross Country runs in the Fall.
+    reasmb: For a full schedule look online at gobrits.com
+  decomp: * what * teams * cross country * play *
+    reasmb: Cross Country runs against colleges such as Aurora, Kalamazoo, and Wheaton.
+    reasmb: For a full list of teams that Cross Country runs against, go to gobrits.com
+  decomp: * who * coaches * cross country *
+    reasmb: The head coach for the Cross Country team is Lance Colman, and the assistant coaches are Trevor Knowles and Xavier Aikens.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: football 5
+  decomp: * when * football * play *
+    reasmb: Football plays in the Fall.
+    reasmb: For a full schedule, look online at gobrits.com
+  decomp: * when * football *
+    reasmb: Football plays in the Fall.
+  decomp: * what * teams * football * play *
+    reasmb: Football plays colleges such as against Hope, Alma, and Adrian.
+    reasmb: For a full list of teams that Football plays against, go to gobrits.com
+  decomp: * who * coaches * football *
+    reasmb: The head coach is Travis Rundle.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: golf 5
+  decomp: * when * golf * play *  
+    reasmb: Golf plays in the Fall and the Spring, with the main season occurring in the Spring.
+    reasmb: For a full schedule, look online at gobrits.com
+  decomp: * when * golf * 
+    reasmb: Golf plays in the Fall and the Spring, with the main season occurring in the Spring.
+  decomp: * what * teams * golf * play *
+    reasmb: Golf plays against colleges such as Olivet, Lourdes, and Trine.
+    reasmb: For a full list of teams that Golf plays against, go to gobrits.com
+  decomp: * who * coaches * golf *
+    reasmb: The head coach for the Golf team is Jake Maas.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: lacrosse 5
+  decomp: * when * lacrosse * play *  
+    reasmb: Lacrosse plays in the Spring.
+    reasmb: For a full schedule, look online at gobrits.com
+  decomp: * when * lacrosse *
+    reasmb: Lacrosse plays in the Spring.
+  decomp: * what * teams * lacrosse * play *
+    reasmb: Lacrosse plays against teams such as St. John Fisher University, Centre College, and Transylvania University.
+    reasmb: For a full list of teams that Lacrosse plays against, go to gobrits.com
+  decomp: * who * coaches * lacrosse *
+    reasmb: The head coach for the Lacrosse team is Jacob DeCola.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: soccer 5
+  decomp: * when * soccer * play *
+    reasmb: Soccer plays in the Fall.
+    reasmb: For a full schedule, look online at gobrits.com
+  decomp: * when * soccer *
+    reasmb: Soccer plays in the Fall.
+  decomp: * what * teams * soccer * play *
+    reasmb: Soccer plays against colleges such as Wooster, Manchester, and Concordia.
+    reasmb: For a full list of teams that Soccer plays against, go to gobrits.com
+  decomp: * who * coaches * soccer *
+    reasmb: The head coach of the Soccer team is Wytse Molenaar, and the assistant coach is Kyle Ihn.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: swim 5
+  decomp: * when * swim * play *
+    reasmb: The Swim team swims in the Fall and the Spring.
+    reasmb: For a full schedule, look online at gobrits.com
+  decomp: * when * swim *
+    reasmb: The Swim team swims in the Fall and the Spring.
+  decomp: * what * teams * swim * play *
+    reasmb: The Swim team swims against Hillsdale, Wabash, and Calvin.
+    reasmb: For a full list of teams that Swim swims against, go to gobrits.com
+  decomp: * who * coaches * swim *
+    reasmb: The head coach of the Swim team is Rob Brownell, and the assistant coach is Evan Wonner.
+    reasmb: For more information on the coaching staff, go to gobrits.com
+key: diving
+  decomp: * when * diving * play *
+    reasmb: The Diving team dives in the Fall and the Spring.
+    reasmb: For a full schedule, look online at gobrits.com
+  decomp: * when * diving *
+    reasmb: The Diving team dives in the Fall and the Spring.
+  decomp: * what * teams * diving * play *
+    reasmb: The Diving team dives against Hillsdale, Wabash, and Calvin.
+    reasmb: For a full list of teams that Diving dives against, go to gobrits.com
+  decomp: * who * coaches * diving *
+    reasmb: The head coach of the Dive team is Rob Brownell, and the assistant coach is Evan Wonner.
+    reasmb: For more information on the coaching staff, go to gobrits.com
+
+key: track 5
+  decomp: * when * track * play *
+    reasmb: The Track and Field team runs in the Winter and Spring.
+    reasmb: For a full schedule, look online at gobrits.com
+  decomp: * when * track *
+    reasmb: The Track and Field team runs in the Winter and Spring.
+  decomp: * what * teams * track * play *
+    reasmb: The Track and Field team plays against Denison, Wittenberg, and Hillsdale.
+    reasmb: For a full list of teams that Track and Field play against, go to gobrits.com
+  decomp: * who * coaches * track *
+    reasmb: The head coach for the Cross Country team is Lance Colman, and the assistant coaches are Trevor Knowles and Xavier Aikens.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: wrestling 5
+  decomp: * when * wrestling * play *
+    reasmb: Wrestling wrestles in the Fall, Winter, and a little bit of the Spring.
+    reasmb: For  a full schedule, look online at gobrits.com
+  decomp: * when * wrestling *
+    reasmb: Wrestling wrestles in the Fall, Winter, and a little bit of the Spring.
+  decomp: * what * teams * wrestling * play *
+    reasmb: Wrestlings wrestles against Trine, Alma, and Hiram.
+    reasmb: For a full list of teams that Wrestling wrestles against, go to gobrits.com
+  decomp: * who * coaches * wrestling *
+    reasmb: The head coach of the Wrestling team is Adam Wilson.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: volleyball 5
+  decomp: * when * volleyball * play *
+    reasmb: Volleyball plays in the Fall.
+    reasmb: For a full schedule, look online at gobrits.com
+  decomp: * when * volleyball *
+    reasmb: Volleyball plays in the Fall.
+  decomp: * what * teams * volleyball * play *
+    reasmb: Volleyball plays against Calvin, Saint Mary's, and Wheaton.
+    reasmb: For a full list of teams that Volleyball plays against, go to gobrits.com
+  decomp: * who * coaches * volleyball *
+    reasmb: The head coach of the Volleyball team is Kristin Slamer-de St. Aubin, and her assitant coaches are Keelin Severtson, and Catriana Carroll.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: equestrian 5
+  decomp: * when * equestrian * play *
+    reasmb: Equestrian rides in the Fall and the beginning of the Spring.
+    reasmb: For a full schedule, look online at gobrits.com
+  decomp: * when * equestrian *
+    reasmb: Equestrian rides in the Fall and the beginning of the Spring.
+  decomp: * what * teams * equestrian * play *
+    reasmb: Equestrian rides against Finley, Lake Erie, and Adrian.
+    reasmb: For a full list of teams that Equestrian plays, go to gobrits.com
+  decomp: * who * coaches * equestrian *
+    reasmb: The head coach of the Equestrian Western team is Adam V. D'Agostino, and the head coach for the Hunt Seat team is Chris Mitchell.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+key: esports 5
+  decomp: * when * esports * play *
+    reasmb: Esports plays year-round.
+    reasmb: For a full schedule, look online at gobrits.com
+  decomp: * when * esports *
+    reasmb: Esports plays year-round.
+  decomp: * what * teams * esports * play *
+    reasmb: Esports competes against Alma, Trine, and Adrian.
+    reasmb: For a full list of teams that Esports competes against, go to gobrits.com
+  decomp: * who * coaches * esports *
+    reasmb: The head coach of the Esports teams is Karlo Delos Angeles, and Tavian Anderson is the assistant coach.
+    reasmb: For more information about the coaching staff, go to gobrits.com
+
+
+key: food 5
+  decomp: * what *
+    reasmb: Baldwin is the main dining hall on campus and offers breakfast, lunch, and dinner. We also have the Eat Shop and offers a variety of paid options for food, and a couple for meal swipes. For a more specialized selection, you could go to the Brit Bar at the Dow, or The Grinds in the library.
+
+key: baldwin 5
+  decomp: * hours * baldwin *
+    reasmb: Baldwins operating hours are 7AM-9AM for breakfast, 11AM-5PM for lunch, and 5PM-8PM for dinner.
+    reasmb: For more information about Baldwin's hours of operation, please visit albionmetz.com
+  decomp: * menu * baldwin *
+    reasmb: Lower Baldwin serves a variety of food from different cultures. However, it will always serve grilled favorites, like hamburgers and fries, and sandwiches at the deli station.
+    reasmb: A salad, soup, fruit, vegan, gluten free, and dessert bar are all availably for students who dine in Lower Baldwin. 
+    reasmb: The menu for Baldwin is available online if Albion College Baldwin menu is searched.
+  decomp: * where * baldwin *
+    reasmb: Baldwin is located in the center of campus, across from the quad.
+    reasmb: For a more detailed map, please visit albion.edu
+ decomp: * what * food *
+    reasmb: Lower Baldwin serves a variety of food from different cultures. However, it will always serve grilled favorites, like hamburgers and fries, and sandwiches at the deli station.
+    reasmb: A salad, soup, fruit, vegan, gluten free, and dessert bar are all availably for students who dine in Lower Baldwin. 
+    reasmb: The menu for Baldwin is available online if Albion College Baldwin menu is searched.
+   decomp:  * what is *
+    reasmb: Lower Baldwin is home to the campus's main cafeteria, while upper Baldwin is primarily used to host campus events and dinners.
+  decomp: * baldwin * 
+    reasmb: The main food offered at Baldwin is a rotating selection of a main course, a vegan option, a vegetarian option, a salad bar, a grill area, and a pasta bar at lunch.
+
+key: grind 5
+  decomp: * where * grinds *
+    reasmb: The Grinds is located within the library on the quad.
+    reasmb: For a more detailed map, please visit albion.edu
+  decomp: * hours * grinds * 
+    reasmb: The Grinds is open from 7AM to 5PM Monday through Friday.
+    reasmb: For more information about the Grinds, please visit albionmetz.com
+  decomp: * menu * grinds *
+    reasmb: The menu for the grinds is not available online, but they have all of the same selection that any Starbucks has.
+  decomp: * grinds *
+    reasmb: The Grinds in the library has been converted to a Starbucks that offers a full selection of their drinks. 
+
+key: bar 5
+  decomp: * where * brit * bar *
+    reasmb: The Brit Bar is located just within the Dow Athletic Complex.
+    reasmb: For a more detailed map, please visit albion.edu
+  decomp: * menu * brit * bar *
+    reasmb: The menu for the Brit Bar is available online if Albion College Brit Bar Menu is searched up.
+  decomp: * hours * brit * bar *
+    reasmb: The Brit Bar is open 7AM to 7PM Monday through Friday, and is closed on the weekend.
+    reasmb: For more information about the Brit Bar's hours of operation, please visit albionmetz.com
+  decomp: * brit * bar *
+    reasmb: The Brit Bar offers a rotating selection of smoothies for meal swipes, but you can always pay full price for any of the smoothies on their menu.
+
+key: shop 5
+  decomp: * where * 
+    reasmb: The Eat Shop is located on the second floor of the Kellogg Center, which is just across the street from Baldwin and is on the quad.
+    reasmb: For a more detailed map, please visit albion.edu
+  decomp: * hours *
+    reasmb: The Eat Shop is open for food from 11AM to midnight Monday through Friday, and 6PM to midnight on the weekend.
+    reasmb: For more information about the Eat Shop's hours of operation, please visit albionmetz.com
+  decomp: * menu * 
+    reasmb: The menu for the Eat Shop is available online if Albion College Eat Shop Menu is searched up.
+  decomp: * 
+    reasmb: The Eat Shop offers a rice  bowl and a grilled cheese for a meal swipe, but if neither of those options are intriguing, you can always pay full price for any of the other items on its menu.
+
+
+key: wesley 5
+  decomp: * where *
+    reasmb: Wesley is located off Michigan Ave. Along the North edge of campus.
+    reasmb: For a more detailed map, please visit albion.edu
+  decomp: * wesley *
+    reasmb: Wesley is a all first year dorm that almost everyone lives in for their Freshman year, the only exception to this would be if all spots in Wesley were filled by the Freshman class so you would be placed in Seaton. Wesley has both 5 person suites that are two doubles connected by a common space, but for the most part, all the rooms in Wesley are doubles. Regardless of if you live in a suite or a double, everyone uses the shared bathrooms on each floor.
+    reasmb: For more information about Wesley, please contact the office of Community Living through albion.edu
+
+key: seaton 5
+  decomp: * where * 
+    reasmb: Seaton is located in the center of campus, and is connected to Baldwin. This gives it one of the most convienent locations on campus.
+    reasmb: For a more detailed map, please visit albion.edu
+  decomp: * seaton *
+    reasmb: Seaton is a dorm that can have all different years of students in it, all rooms are doubles, with shared bathrooms. You will likely be placed here your Second year if you don't pursue a suite style of housing.
+    reasmb: For more information about Seaton, please contact the office of Community Living through albion.edu
+
+key: whitehouse 5
+  decomp: * where * 
+    reasmb: Whitehouse is located in the center of campus, and is attached to the opposite side of Baldwin compared to Seaton.
+    reasmb: For a more detailed map of campus, please visit albion.edu
+  decomp: * 
+    reasmb: Whitehouse has rooms that are two doubles connected by a shared bathroom. In order to apply for a room, you will need either just one roommate, or to ideally apply with three roommates, if you are applying with just one, you will be placed with another random duo.
+    reasmb: For more information about Whitehouse, please contact the office of Community Living through albion.edu
+
+key: mitchell 5
+  decomp: * where * 
+    reasmb: Mitchel Towers is located on the East side of campus, but is in a good spot for athletes looking for a short walk to campus.
+    reasmb: For a more detailed map of campus, please visit albion.edu
+  decomp: * 
+    reasmb: Mitchel Towers has rooms that are two doubles connected by a shared bathroom. In order to apply for a room, you will need either just one roommate, or to ideally apply with three roommates, if you are applying with just one, you will be placed with another random duo.
+    reasmb: For more information about Mitchel Towers, please contact the office of Community Living through albion.edu
+
+key: mae 5
+  decomp: * where *
+    reasmb: The Mae is located in the Southeast corner of campus right next to the Dow Athletic Complex. This leaves you with a slightly longer walk to classes, but a super short walk to any sport practices and matches. 
+    reasmb: For a more detailed map of campus, please visit albion.edu
+  decomp: * mae *
+    reasmb: The Mae is apartment style housing for upperclassmen. You can start to apply for a spot for your Junior year. If you are living in the Mae, you will have access to shared laundry machines, but a private kitchen so you will not be on a meal plan while living there.
+    reasmb: For more information about the Mae, please contact the office of community living through albion.edu
+
+key: munger 5
+  decomp: * where * 
+    reasmb: Munger is located as far Northwest as you can get on campus which makes it not very ideal for athletes who are looking for a quick walk to practice. It also makes it so if you are trying to get to class you have at minimum a ten minute walk.
+    reasmb: For a more detailed map of campus, please visit albion.edu
+  decomp: * munger *
+    reasmb: Munger is apartment style housing where you can apply as an upperclassmen, and you can have anywhere from two people to eight people living in a unit. Living here will require you to cook food for youself. One of the main perks of living here is that you will have air conditioning, and full control of your heating and cooling system.
+    reasmb: For more information about Munger, please contact Community Living through albion.edu
+
+key: burns 5
+  decomp: * where *
+    reasmb: The Burns Street Apartments are located as far East as you can get on campus which makes for a 10 minute walk to classes, and practices.
+    reasmb: For a more detailed map of campus, please visit albion.edu
+  decomp: * burns *
+    reasmb: The Burns Street Apartments are newly renovated apartment style living that are for upperclassmen. They have shared laundry machines for all units, but have private kitchens and a small living room. They are all styled for two people to live in.
+    reasmb: For more information about the Burns Street Apartments, please contact Community Living through albion.edu 
+
+key: studying 5
+   decomp: * not *
+    reasmb: Some things to do while not studying include going to events hosted around campus, walking in the Whitehouse Nature Center, exploring Victory Park, and seeing a movie in the Bohm Theater downtown.
+
+key: college 3
+   decomp:  * where * food *
+    reasmb: Food can be found all over campus. Baldwin, the Kellogg Center, the Dow, and the library all have food options throughout the day.
+   decomp:  * where *
+    reasmb: Albion College is located in the south Michigan, in the city of Albion.
+   decomp:  * attend *
+    reasmb: Roughly 1,500 students attend Albion College.
+   decomp:  * go to *
+    reasmb: Roughly 1,500 students attend Albion College.
+   decomp:  * 
+    reasmb: What would you like to learn about Albion College?
+
+key: albion 2
+   decomp:  * where *
+    reasmb: The city of Albion is located in south Michigan.
+   decomp:  * population *
+    reasmb: The city of Albion, Michigan has a population of roughly 8,000 people.
+   decomp:  * to do *
+    reasmb: Albion is home to a beautiful nature scene. From the Whitehouse Nature Center at Albion College to Victory park past populated downtown, nature lovers will get their fix.
+    reasmb: Albion also has a variety of food options. Spanish, Japanese, and Mediterranean restaurants are open in Albion.
+    reasmb: The music scene is also lively in Albion. Walk The Beat is a city wide event held each year where artists are brought from around the mid-west to perform and share their music all while people get to explore the city of Albion.
+
+
+key: dorm 4
+  decomp: * many *
+    reasmb: Albion College has 8+ housing options availably to students. Some of those options include Wesley Hall, Seaton Hall, Whitehouse Hall, Mitchell Towers, and Munger Apartments. Ask more about these options or others!
+    reasmb: For a more detailed map of all campus options, please visit albion.edu
+  decomp: * @have *
+    reasmb: Every Freshmen is required to live in the all Freshmen dorm, Wesley Hall. However, after your first year at Albion College, any student can decide where to live on or off campus.
+  decomp: * where *
+    reasmb: Albion provides dorms located on and off of campus.
+ decomp: * freshmen *
+    reasmb: All Freshmen live in Wesley Hall, where only Freshmen are allowed to live.
+  decomp: * @sophomore *
+    reasmb: Sophomores, Juniors, and Seniors can live in any housing option expect Wesley.
+  decomp: * 
+    reasmb: What would you like to know about Albion College dorms?  
+    reasmb: For a more detailed map of all campus options, please visit albion.edu
+ 
+
+
+key: sorry 1
+  decomp: *
+    reasmb: Please don't apologize.
+    reasmb: Apologies are not necessary.
+    reasmb: I've told you that apologies are not required.
+
+key: apologise 1
+  decomp: *
+    reasmb: goto sorry
